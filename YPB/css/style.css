@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    min-height: 70%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url(../images/1929577_537659833431_1217_n.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header, header .header-content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+}
+}
+header .header-content {
+    padding: 100px 15px;
+}
