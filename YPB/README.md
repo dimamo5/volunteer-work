@@ -7,9 +7,10 @@ Possible Layouts: [Blue Montain Project](http://www.bluemountainproject.org/) [L
 
 Inpiration:[World Housing](http://worldhousing.org/) [Blood Water](http://www.bloodwater.org/)
 
-Content: - Homepage with large photo in begin and YPB in the center/ 3 Colons with more information/ (TBA) /Footer
-         - About us
-         - Volunteering
-         - Donate
-         - Team
-         - Gallery(lightgallery maybe)
+Content: 
+- Homepage with large photo in begin and YPB in the center/ 3 Colons with more information/ (TBA) /Footer
+- About us
+- Volunteering
+- Donate
+- Team
+- Gallery(lightgallery maybe)
