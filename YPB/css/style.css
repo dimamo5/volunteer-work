@@ -58,10 +58,10 @@ section {
     background-color: #fff;
 }
 
-.navbar-brand{
-    display: inline-block;
+a{
+    color: #009FFD;
 }
 
-.navbar-brand img{
-    height: 10px;
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
 }
