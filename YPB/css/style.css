@@ -10,7 +10,8 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../images/1929577_537659833431_1217_n.jpg);
+   /* background-image: url(../images/1929577_537659833431_1217_n.jpg);*/
+    background-color: #11283D;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #fff;
@@ -55,4 +56,12 @@ header .header-content .header-content-inner h1 {
 section {
     padding: 100px 0;
     background-color: #fff;
+}
+
+.navbar-brand{
+    display: inline-block;
+}
+
+.navbar-brand img{
+    height: 10px;
 }
