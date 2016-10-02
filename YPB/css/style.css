@@ -74,3 +74,5 @@ a{
     font-weight: 700;
     font-size: 18px
 }
+
+.thumbnail{height: 170px;border-radius: 0;}
