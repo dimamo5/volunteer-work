@@ -14,7 +14,7 @@ header {
     background-color: #11283D;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #E7EFF2;
 }
 
 header, header .header-content {
@@ -65,6 +65,7 @@ a{
 .nav>li>a:focus, .nav>li>a:hover {
     background-color: transparent;
 }
+
 #aboutus p{
     font-size: 17px;
 }
@@ -76,3 +77,46 @@ a{
 }
 
 .thumbnail{height: 170px;border-radius: 0;}
+
+footer{
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: #11283D;
+    color: #E7EFF2;
+}
+
+#info{
+    background-color: #E7EFF2;
+}
+
+#info p{
+    margin-top: 10px;
+    font-stretch: expanded;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+
+
+#volunteering p{
+    margin-top: 10px;
+    font-stretch: expanded;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+
+h2{
+   color: #11283D;
+    letter-spacing: 1px;
+}
+
+i{
+    color: #009FFD;
+    margin-top: 5px;
+}
+
+footer p{
+    margin-top: 5px;
+    color: #E7EFF2;
+}
