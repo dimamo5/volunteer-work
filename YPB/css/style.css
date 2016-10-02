@@ -65,3 +65,12 @@ a{
 .nav>li>a:focus, .nav>li>a:hover {
     background-color: transparent;
 }
+#aboutus p{
+    font-size: 17px;
+}
+
+.highlightText{
+    color: #009FFD;
+    font-weight: 700;
+    font-size: 18px
+}
