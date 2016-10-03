@@ -10,7 +10,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-   /* background-image: url(../images/1929577_537659833431_1217_n.jpg);*/
+    /* background-image: url(../images/1929577_537659833431_1217_n.jpg);*/
     background-color: #11283D;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -53,12 +53,16 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
 }
 
+.header-content p {
+    margin-top: 5px;
+}
+
 section {
     padding: 100px 0;
     background-color: #fff;
 }
 
-a{
+a {
     color: #009FFD;
 }
 
@@ -107,17 +111,20 @@ a{
     color: white;
 }
 
-#aboutus p{
+#aboutus p {
     font-size: 17px;
 }
 
-.highlightText{
+.highlightText {
     color: #009FFD;
     font-weight: 700;
     font-size: 18px
 }
 
-.thumbnail{height: 170px;border-radius: 0;}
+.thumbnail {
+    height: 170px;
+    border-radius: 0;
+}
 
 footer{
     padding-top: 40px;
@@ -126,54 +133,62 @@ footer{
     color: #E7EFF2;
 }
 
-#info{
+#info {
     background-color: #E7EFF2;
 }
 
-#info p{
-    margin-top: 10px;
+#info p {
+    margin-top: 20px;
     font-stretch: expanded;
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 170%;
 }
 
-
-#volunteering p{
+#volunteering p {
     margin-top: 20px;
     font-stretch: expanded;
     letter-spacing: 1px;
     line-height: 170%;
 }
 
-#volunteering i{
+#volunteering i {
     font-size: 1300%;
 }
 
-h2{
-   color: #11283D;
-   letter-spacing: 1px;
+
+h2 {
+    color: #11283D;
+    letter-spacing: 1px;
 }
 
-i{
+i {
     color: #009FFD;
     margin-top: 5px;
 }
 
-footer p{
+footer p {
     margin-top: 5px;
     color: #E7EFF2;
 }
 
-.programmes{
+.programmes {
     margin-top: 50px;
     height: 170px;
 }
 
-.programmes p{
+.programmes p {
     font-size: 30px;
     font-weight: 700;
 }
-.our-programme p{
+
+.our-programme p {
     font-size: 18px;
+}
+#gallery {
+    background-color: #E7EFF2;
+}
+
+.photos {
+margin-top: 50px;
 }
