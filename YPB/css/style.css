@@ -111,11 +111,14 @@ footer{
 
 
 #volunteering p{
-    margin-top: 10px;
+    margin-top: 20px;
     font-stretch: expanded;
-    font-size: 18px;
     letter-spacing: 1px;
     line-height: 170%;
+}
+
+#volunteering i{
+    font-size: 1300%;
 }
 
 h2{
@@ -131,4 +134,17 @@ i{
 footer p{
     margin-top: 5px;
     color: #E7EFF2;
+}
+
+.programmes{
+    margin-top: 50px;
+    height: 170px;
+}
+
+.programmes p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.our-programme p{
+    font-size: 18px;
 }
