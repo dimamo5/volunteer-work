@@ -64,18 +64,47 @@ a{
 
 .navbar{
     min-height: 70px;
-    vertical-align: middle;
 }
 .navbar-brand{
     height: 70px;
 }
-
-.navbar-nav li a,.navbar-brand {
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+.navbar-nav li a{
+ line-height: 40px;
+ font-size: 17px;
+ font-weight: 600;
+ color: white
+}
+.navbar-brand {
  line-height: 40px;
 }
-
-.nav>li>a:focus, .nav>li>a:hover {
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    color:#009FFD;
+        -webkit-transition: color 0.4s ease-in-out;
+    -moz-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:#009FFD;
     background-color: transparent;
+        -webkit-transition: color 0.4s ease-in-out;
+    -moz-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out
+}
+.navbar-brand>img {
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar-default .navbar-brand {
+    font-size: 17px;
+ font-weight: 600;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
 }
 
 #aboutus p{
@@ -91,7 +120,7 @@ a{
 .thumbnail{height: 170px;border-radius: 0;}
 
 footer{
-    padding-top: 15px;
+    padding-top: 40px;
     padding-bottom: 40px;
     background-color: #11283D;
     color: #E7EFF2;
