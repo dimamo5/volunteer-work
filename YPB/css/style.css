@@ -62,6 +62,18 @@ a{
     color: #009FFD;
 }
 
+.navbar{
+    min-height: 70px;
+    vertical-align: middle;
+}
+.navbar-brand{
+    height: 70px;
+}
+
+.navbar-nav li a,.navbar-brand {
+ line-height: 40px;
+}
+
 .nav>li>a:focus, .nav>li>a:hover {
     background-color: transparent;
 }
@@ -108,7 +120,7 @@ footer{
 
 h2{
    color: #11283D;
-    letter-spacing: 1px;
+   letter-spacing: 1px;
 }
 
 i{
