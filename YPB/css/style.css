@@ -4,7 +4,7 @@ body, html {
 }
 
 header {
-    min-height: 85%;
+    min-height: 35%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -137,6 +137,7 @@ a:hover, a:focus {
 .thumbnail {
     height: 170px;
     border-radius: 0;
+    cursor: pointer;
 }
 
 footer {
