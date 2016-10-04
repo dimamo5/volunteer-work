@@ -80,7 +80,7 @@ a:hover, a:focus {
 
 .navbar-default {
     background-color: transparent;
-    color:white;
+    color: white;
     border: none;
 }
 
@@ -95,14 +95,14 @@ a:hover, a:focus {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #009FFD;
+    color: #227AA0;
     -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #009FFD;
+    color: #227AA0;
     background-color: transparent;
     -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
@@ -117,7 +117,7 @@ a:hover, a:focus {
 .navbar-default .navbar-brand {
     font-size: 17px;
     font-weight: 600;
-    color: inherit;
+    color: #009FFD;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -149,6 +149,10 @@ footer {
 
 #info {
     background-color: #E7EFF2;
+}
+
+p {
+    font-size: 18px;
 }
 
 #info p {
@@ -184,6 +188,10 @@ i {
 footer p {
     margin-top: 5px;
     color: #E7EFF2;
+}
+
+#volunteering-intro {
+    background-color: #E7EFF2;
 }
 
 .programmes {
@@ -248,4 +256,9 @@ footer p {
     -o-transition: background-color 0.5s;
     transition: background-color 0.5s;
     color: #009FFD;
+}
+
+#volunteering-join h3 {
+    color: #227AA0;
+    font-weight: 700;
 }
