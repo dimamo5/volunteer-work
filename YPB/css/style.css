@@ -4,7 +4,7 @@ body, html {
 }
 
 header {
-    min-height: 35%;
+    min-height: 85%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -92,6 +92,10 @@ a:hover, a:focus {
 
 .navbar-brand {
     line-height: 40px;
+}
+.dropdown-menu{
+    border: none;
+    border-radius: none;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
@@ -256,6 +260,7 @@ footer p {
     -o-transition: background-color 0.5s;
     transition: background-color 0.5s;
     color: #009FFD;
+    box-shadow: 1px 0 6px black;
 }
 
 #volunteering-join h3 {
