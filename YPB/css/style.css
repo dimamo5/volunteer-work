@@ -4,14 +4,14 @@ body, html {
 }
 
 header {
-    min-height: 70%;
+    min-height: 85%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    /* background-image: url(../images/1929577_537659833431_1217_n.jpg);*/
-    background-color: #11283D;
+    background-image: url(../images/headerhomepage.png);
+    /*background-color: #11283D;*/
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #E7EFF2;
@@ -66,49 +66,66 @@ a {
     color: #009FFD;
 }
 
-.navbar{
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.navbar {
     min-height: 70px;
 }
-.navbar-brand{
+
+.navbar-brand {
     height: 70px;
 }
+
 .navbar-default {
     background-color: transparent;
+    color: white;
     border: none;
 }
-.navbar-nav li a{
- line-height: 40px;
- font-size: 17px;
- font-weight: 600;
- color: white
+
+.navbar-nav li a {
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 600;
 }
+
 .navbar-brand {
- line-height: 40px;
+    line-height: 40px;
 }
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-    color:#009FFD;
-        -webkit-transition: color 0.4s ease-in-out;
+.dropdown-menu{
+    border: none;
+    border-radius: none;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #227AA0;
+    -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color:#009FFD;
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #227AA0;
     background-color: transparent;
-        -webkit-transition: color 0.4s ease-in-out;
+    -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out
 }
-.navbar-brand>img {
+
+.navbar-brand > img {
     display: inline-block;
     margin-right: 10px;
 }
+
 .navbar-default .navbar-brand {
     font-size: 17px;
- font-weight: 600;
-    color: white;
+    font-weight: 600;
+    color: #009FFD;
 }
-.navbar-default .navbar-nav>li>a {
-    color: white;
+
+.navbar-default .navbar-nav > li > a {
+    color: inherit;
 }
 
 #aboutus p {
@@ -124,9 +141,10 @@ a {
 .thumbnail {
     height: 170px;
     border-radius: 0;
+    cursor: pointer;
 }
 
-footer{
+footer {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #11283D;
@@ -135,6 +153,10 @@ footer{
 
 #info {
     background-color: #E7EFF2;
+}
+
+p {
+    font-size: 18px;
 }
 
 #info p {
@@ -153,13 +175,13 @@ footer{
 }
 
 #volunteering i {
-    font-size: 1300%;
+    font-size: 1000%;
 }
-
 
 h2 {
     color: #11283D;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 
 i {
@@ -172,6 +194,10 @@ footer p {
     color: #E7EFF2;
 }
 
+#volunteering-intro {
+    background-color: #E7EFF2;
+}
+
 .programmes {
     margin-top: 50px;
     height: 170px;
@@ -180,15 +206,64 @@ footer p {
 .programmes p {
     font-size: 30px;
     font-weight: 700;
+    font-family: 'Lalezar', cursive;
+    color: #009FFD;
+    text-transform: uppercase;
 }
 
 .our-programme p {
     font-size: 18px;
 }
-#gallery {
-    background-color: #E7EFF2;
-}
 
 .photos {
-margin-top: 50px;
+    margin-top: 50px;
+}
+
+#gallery {
+    background-image: url("../images/galleryhomepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    padding-top: 70px;
+}
+
+#gallery h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#gallery button {
+    border-radius: 0;
+    border: none;
+    background-color: #009FFD;
+    padding: 10px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#gallery button:hover {
+    background-color: #227AA0;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.scrollDown {
+    background-color: white;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    color: #009FFD;
+    box-shadow: 1px 0 6px black;
+}
+
+#volunteering-join h3 {
+    color: #227AA0;
+    font-weight: 700;
 }
