@@ -72,6 +72,11 @@ a:hover, a:focus {
 
 .navbar {
     min-height: 70px;
+        -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
 }
 
 .navbar-brand {
@@ -254,11 +259,6 @@ footer p {
 
 .scrollDown {
     background-color: white;
-    -webkit-transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    -ms-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    transition: background-color 0.5s;
     color: #009FFD;
     box-shadow: 1px 0 6px black;
 }
