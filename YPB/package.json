@@ -1,0 +1,19 @@
+{
+  "name": "ypb",
+  "version": "1.0.0",
+  "description": "Website for the Young Peace Brigades",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-compile-handlebars": "0.6.1",
+    "gulp-rename": "1.2.2"
+  }
+}
