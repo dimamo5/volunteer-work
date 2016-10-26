@@ -72,6 +72,11 @@ a:hover, a:focus {
 
 .navbar {
     min-height: 70px;
+        -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
 }
 
 .navbar-brand {
@@ -254,11 +259,6 @@ footer p {
 
 .scrollDown {
     background-color: white;
-    -webkit-transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    -ms-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    transition: background-color 0.5s;
     color: #009FFD;
     box-shadow: 1px 0 6px black;
 }
@@ -266,4 +266,23 @@ footer p {
 #volunteering-join h3 {
     color: #227AA0;
     font-weight: 700;
+}
+
+.myModal {
+    background-color: #E7EFF2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.myModal p{
+    margin-top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+.blue-square{
+    background-color: #009FFD;
+    height: 24.1875rem;
 }
