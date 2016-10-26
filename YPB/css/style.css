@@ -267,3 +267,22 @@ footer p {
     color: #227AA0;
     font-weight: 700;
 }
+
+.myModal {
+    background-color: #E7EFF2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.myModal p{
+    margin-top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+.blue-square{
+    background-color: #009FFD;
+    height: 24.1875rem;
+}
