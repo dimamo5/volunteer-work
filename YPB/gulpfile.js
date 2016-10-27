@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
+var critical = require('critical').stream;
 
 gulp.task('default', function () {
     options = {
@@ -10,6 +11,7 @@ gulp.task('default', function () {
 
     return gulp.src('src/*.hbs')
         .pipe(handlebars({}, options))
+        //.pipe(critical({base: '.', inline: true, css: ['css/style.css']}))
         .pipe(rename({extname: ".html"}))
         .pipe(gulp.dest('.'));
 });
