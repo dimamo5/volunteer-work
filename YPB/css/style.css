@@ -72,7 +72,7 @@ a:hover, a:focus {
 
 .navbar {
     min-height: 70px;
-        -webkit-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
     -moz-transition: background-color 0.5s;
     -ms-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
@@ -98,7 +98,8 @@ a:hover, a:focus {
 .navbar-brand {
     line-height: 40px;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     border: none;
     border-radius: none;
 }
@@ -268,6 +269,7 @@ footer p {
     font-weight: 700;
 }
 
+/*
 .myModal {
     background-color: #E7EFF2;
     margin-top: 20px;
@@ -281,8 +283,42 @@ footer p {
     padding-left: 80px;
     padding-bottom: 40px;
 }
+*/
 
-.blue-square{
+.circle {
+    border-radius: 100%;
+    width: 262.5px;
+    height: 262.5px;
     background-color: #009FFD;
-    height: 24.1875rem;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.teamMember{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.teamMember>a>img:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-color: #009FFD;
+    border-width: 3px;
+}
+
+.rowTeamMember>a>img:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-color: #009FFD;
+    border-width: 3px;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+.rowTeamMember{
+    margin-top: 20px;
 }
