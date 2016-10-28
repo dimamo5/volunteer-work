@@ -285,40 +285,49 @@ footer p {
 }
 */
 
+#team {
+    background-color: #E7EFF2;
+}
+
 .circle {
     border-radius: 100%;
     width: 262.5px;
     height: 262.5px;
     background-color: #009FFD;
 }
-.col-centered{
+
+.col-centered {
     float: none;
     margin: 0 auto;
 }
 
-.teamMember{
+.teamMember {
     margin-left: 30px;
     margin-top: 20px;
 }
 
-.teamMember>a>img:hover{
+.teamMember > a > img:hover {
     cursor: pointer;
     border-style: solid;
     border-color: #009FFD;
     border-width: 3px;
 }
 
-.rowTeamMember>a>img:hover{
+.rowTeamMember > a > img:hover {
     cursor: pointer;
     border-style: solid;
     border-color: #009FFD;
     border-width: 3px;
 }
 
-.description{
+.description {
     margin-top: 20px;
 }
 
-.rowTeamMember{
+.rowTeamMember {
     margin-top: 20px;
+}
+
+.modal-body p{
+    font-size: 15px;
 }
