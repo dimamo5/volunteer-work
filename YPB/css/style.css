@@ -331,3 +331,11 @@ footer p {
 .modal-body p{
     font-size: 15px;
 }
+
+#secondRow .rowTeamMember{
+    margin-left: 22%;
+}
+
+#secondRow .teamMember{
+    margin-left: 40px;
+}
