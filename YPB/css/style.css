@@ -184,6 +184,14 @@ p {
     font-size: 1000%;
 }
 
+#volunteering-intro > div > div p {
+    margin-top: 20px;
+    font-stretch: expanded;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+
 h2 {
     color: #11283D;
     letter-spacing: 1px;
@@ -267,6 +275,11 @@ footer p {
 #volunteering-join h3 {
     color: #227AA0;
     font-weight: 700;
+    margin-top: 60px;
+}
+
+#volunteering-join h4 {
+    color: #009FFD;
 }
 
 /*
@@ -328,14 +341,22 @@ footer p {
     margin-top: 20px;
 }
 
-.modal-body p{
+.modal-body p {
     font-size: 15px;
 }
 
-#secondRow .rowTeamMember{
+#secondRow .rowTeamMember {
     margin-left: 22%;
 }
 
-#secondRow .teamMember{
+#secondRow .teamMember {
     margin-left: 40px;
+}
+
+.developersNames a {
+    color: #E7EFF2;
+}
+
+li {
+    font-size: 16px;
 }
