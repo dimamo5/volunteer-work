@@ -148,6 +148,8 @@ a:hover, a:focus {
     height: 170px;
     border-radius: 0;
     cursor: pointer;
+
+    border-width: 2px;
 }
 
 footer {
@@ -182,6 +184,14 @@ p {
 
 #volunteering i {
     font-size: 1000%;
+}
+
+#volunteering-intro > div > div p {
+    margin-top: 20px;
+    font-stretch: expanded;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 170%;
 }
 
 h2 {
@@ -267,6 +277,11 @@ footer p {
 #volunteering-join h3 {
     color: #227AA0;
     font-weight: 700;
+    margin-top: 60px;
+}
+
+#volunteering-join h4 {
+    color: #009FFD;
 }
 
 /*
@@ -285,7 +300,7 @@ footer p {
 }
 */
 
-#team {
+#aboutus {
     background-color: #E7EFF2;
 }
 
@@ -328,6 +343,30 @@ footer p {
     margin-top: 20px;
 }
 
-.modal-body p{
+.modal-body p {
     font-size: 15px;
+}
+
+#secondRow .rowTeamMember {
+    margin-left: 22%;
+}
+
+#secondRow .teamMember {
+    margin-left: 40px;
+}
+
+.developersNames a {
+    color: #E7EFF2;
+}
+
+li {
+    font-size: 16px;
+}
+
+.teamPhotos{
+    margin-top: 40px;
+}
+
+#whoAreWe{
+    margin-top: 15px;
 }
