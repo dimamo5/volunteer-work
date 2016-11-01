@@ -148,6 +148,8 @@ a:hover, a:focus {
     height: 170px;
     border-radius: 0;
     cursor: pointer;
+
+    border-width: 2px;
 }
 
 footer {
