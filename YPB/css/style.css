@@ -298,7 +298,7 @@ footer p {
 }
 */
 
-#team {
+#aboutus {
     background-color: #E7EFF2;
 }
 
@@ -359,4 +359,12 @@ footer p {
 
 li {
     font-size: 16px;
+}
+
+.teamPhotos{
+    margin-top: 40px;
+}
+
+#whoAreWe{
+    margin-top: 15px;
 }
