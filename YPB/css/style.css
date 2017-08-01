@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     width: 100%;
+    font-family:  'Raleway', sans-serif, cursive;
 }
 
 header {
@@ -14,7 +15,7 @@ header {
     /*background-color: #11283D;*/
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #E7EFF2;
+    color: #F1F1F1;
 }
 
 header, header .header-content {
@@ -105,18 +106,23 @@ a:hover, a:focus {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #227AA0;
+    color: #06ACF9;
     -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #227AA0;
+    color: #06ACF9;
     background-color: transparent;
     -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > #donate_button:hover{
+    color: #F8FBFB;
+    background-color: #06ACF9;
 }
 
 .navbar-brand > img {
@@ -156,16 +162,17 @@ footer {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #11283D;
-    color: #E7EFF2;
+    color: #F1F1F1;
 }
 
 #info {
-    background-color: #E7EFF2;
+    background-color: #F1F1F1;
 }
 
 p {
     font-size: 18px;
     line-height: 170%;
+    font-family:  'Open Sans', sans-serif, cursive;
 }
 
 #info p {
@@ -205,11 +212,11 @@ i {
 
 footer p {
     margin-top: 5px;
-    color: #E7EFF2;
+    color: #F1F1F1;
 }
 
 #volunteering-intro {
-    background-color: #E7EFF2;
+    background-color: #F1F1F1;
 }
 
 .programmes {
@@ -269,8 +276,24 @@ footer p {
 .scrollDown {
     background-color: white;
     color: #009FFD;
-    box-shadow: 1px 0 6px black;
+    box-shadow: 1px 0 6px #130f30;
 }
+
+.scrollDown .navbar-nav > li > a:focus, .scrollDown .navbar-nav > li > a:hover {
+    color: #227AA0;
+    background-color: white;
+}
+
+.scrollDown #donate_button{
+    color: #F8FBFB;
+    background-color: #049CFB;
+}
+
+.scrollDown #donate_button:hover{
+    color: #F8FBFB;
+    background-color: #06ACF9;
+}
+
 
 #volunteering-join h3 {
     color: #227AA0;
@@ -285,7 +308,7 @@ footer p {
 
 /*
 .myModal {
-    background-color: #E7EFF2;
+    background-color: #F1F1F1;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
@@ -300,7 +323,7 @@ footer p {
 */
 
 #aboutus {
-    background-color: #E7EFF2;
+    background-color: #F1F1F1;
 }
 
 .circle {
@@ -342,8 +365,38 @@ footer p {
     margin-top: 20px;
 }
 
+p.description{
+    color: #5CB5E9;
+}
+
+.modal-title{
+    color: #06ACF9;
+}
+
 .modal-body p {
     font-size: 15px;
+}
+
+.modal_text {
+  position: relative;
+}
+
+.modal-body h4{   
+    color: #5CB5E9;
+}
+
+.modal-body h5{   
+    color: #9BD5F5;
+}
+
+.center_vertically_left{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);   
+  float: left;
+}
+.center_vertically_right{
+    float: right;
 }
 
 #secondRow .rowTeamMember {
@@ -355,7 +408,7 @@ footer p {
 }
 
 .developersNames a {
-    color: #E7EFF2;
+    color: #F1F1F1;
 }
 
 li {
@@ -372,4 +425,23 @@ li {
 
 #lightgallery{
     margin-top: 40px;
+}
+
+
+#donate_button{
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #049CFB;  
+    border-color: #4e8fc8;
+}
+
+
+#container_nav{
+    width: auto;
+    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 6%;
+    margin-left: 6%;
 }
