@@ -16,5 +16,9 @@
     "gulp": "3.9.1",
     "gulp-compile-handlebars": "0.6.1",
     "gulp-rename": "1.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-match-height": "^0.7.2"
   }
 }

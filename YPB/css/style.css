@@ -26,7 +26,7 @@ header, header .header-content {
 
 @media (min-width: 768px) {
     header .header-content {
-        position: absolute;
+        position: absolute; 
         top: 50%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -120,7 +120,7 @@ a:hover, a:focus {
     transition: color 0.4s ease-in-out
 }
 
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > #donate_button:hover{
+.navbar-default .navbar-nav > li >  #donate_button:focus, .navbar-default .navbar-nav > li > #donate_button:hover{
     color: #F8FBFB;
     background-color: #06ACF9;
 }
@@ -377,8 +377,9 @@ p.description{
     font-size: 15px;
 }
 
-.modal_text {
+.modal-body {
   position: relative;
+    min-height: 474px;
 }
 
 .modal-body h4{   
@@ -394,10 +395,68 @@ p.description{
   top: 50%;
   transform: translateY(-50%);   
   float: left;
+    z-index: 1;
 }
+
 .center_vertically_right{
-    float: right;
+    -webkit-animation: nudge 5s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation: nudge 5s;
+    animation-fill-mode: forwards;   
+    z-index: -1;
 }
+
+.show_slow {
+    animation: fadein 8s;
+    -moz-animation: fadein 8s; /* Firefox */
+    -webkit-animation: fadein 8s; /* Safari and Chrome */
+    -o-animation: fadein 8s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+}
+
+@keyframes nudge  {
+    from {left: 0%;}
+    to {left: 50%; z-index: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes  nudge  {
+    from {left: 0%;}
+    to {left: 50%; z-index: 1;}
+}
+
 
 #secondRow .rowTeamMember {
     margin-left: 22%;
@@ -445,3 +504,5 @@ li {
     margin-right: 6%;
     margin-left: 6%;
 }
+
+

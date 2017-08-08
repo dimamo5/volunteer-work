@@ -12,3 +12,12 @@ window.onscroll = function () {
         added = false;
     }
 }
+
+/*document.getElementById("read_more").addEventListener("click", function( event ) {
+    // display the current click count inside the clicked div
+    event.target.in nerHTML = "<i class=\"fa fa-chevron-up\" aria-hidden=\"true\"></i>";
+
+    //document.getElementById("read_more").innerHTML.replace("<i class=\"fa fa-chevron-down\" aria-hidden=\"true\"></i>","<i class=\"fa fa-chevron-up\" aria-hidden=\"true\"></i>")
+  }, false);
+*/
+ /* document.getElementsByClassName("center_vertically_right")[0].classList.add("load");*/
