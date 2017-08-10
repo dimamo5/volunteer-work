@@ -395,7 +395,8 @@ p.description{
   top: 50%;
   transform: translateY(-50%);   
   float: left;
-    z-index: 1;
+  z-index: 1;
+  padding: 30px;
 }
 
 .center_vertically_right{

@@ -13,11 +13,23 @@ window.onscroll = function () {
     }
 }
 
-/*document.getElementById("read_more").addEventListener("click", function( event ) {
+document.querySelector("#RashidZuberu .modal-dialog .modal-content .modal-body .container-fluid .modal_text .center_vertically_right .show_slow button")
+.addEventListener("click", function (event) {
     // display the current click count inside the clicked div
-    event.target.in nerHTML = "<i class=\"fa fa-chevron-up\" aria-hidden=\"true\"></i>";
+   // console.log('inner ' + event.target.innerHTML);
 
-    //document.getElementById("read_more").innerHTML.replace("<i class=\"fa fa-chevron-down\" aria-hidden=\"true\"></i>","<i class=\"fa fa-chevron-up\" aria-hidden=\"true\"></i>")
-  }, false);
-*/
- /* document.getElementsByClassName("center_vertically_right")[0].classList.add("load");*/
+    if (event.target.innerHTML === "Read More") {
+        event.target.innerHTML = "Read Less";
+    } else
+       event.target.innerHTML = "Read More";
+}, false);
+    
+document.querySelector("#AzoskaSimeone .modal-dialog .modal-content .modal-body .container-fluid .modal_text .center_vertically_right .show_slow button", "#AzoskaSimeone .modal-dialog .modal-content .modal-body .container-fluid .modal_text .center_vertically_right .show_slow button")
+.addEventListener("click", function (event) {
+    // display the current click count inside the clicked div
+
+    if (event.target.innerHTML === "Read More") {
+        event.target.innerHTML = "Read Less";
+    } else
+       event.target.innerHTML = "Read More";
+}, false);
